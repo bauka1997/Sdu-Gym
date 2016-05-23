@@ -1,0 +1,77 @@
+@font-face{
+    font-family:Bauka;
+    src: url(9733.ttf);
+}
+body{
+	margin: 0px;
+
+}
+.back{
+	width: 100%;
+	height: 1097px;
+	background-image: url(back.jpg);
+    background-position: 100% -40%;
+    background-color: rgba(0, 0, 0, 1);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+.header{
+	height: 86px;
+	width:100%;
+	background:#1E1E28;
+	position: fixed;
+}
+.sox{
+	font-family: Bauka;
+	text-align: right;
+	color:white;
+	float: right;
+	margin-top: 200px;
+	font-size: 150px;
+	margin-right: 20px;
+}
+.box{
+	font-family: Bauka;
+	text-align: left;
+	color: white;
+	float: left;
+	margin-top: 200px;
+	font-size: 70px;
+	margin-right: 20px;
+
+}
+.cont{
+	font-family: Bauka;
+	text-align: left;
+	color: red;
+	float: center;
+	font-size: 20px;
+	margin-right: 20px;
+}
+.logo{
+	padding: 5px;
+	float: right;
+}
+.logo2{
+	padding: 5px;
+	float: left;
+}
+.menu{
+	float: right;
+	color:white;
+	height: 32px;
+}
+.menu li{
+	font-family: Bauka;
+	display: inline;
+	padding: 46px;
+	letter-spacing: 5px;
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #980f0f;
+}

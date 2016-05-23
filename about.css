@@ -1,0 +1,51 @@
+@font-face{
+    font-family:Bauka;
+    src: url(9733.ttf);
+}
+body{
+	margin:0px;
+
+}
+.back{
+	width: 100%;
+	height: 100%;
+	background-image: url(yoga.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1500px 2000px;
+}
+
+.header{
+	height: 86px;
+	width: 100%;
+	background:#1E1E28;
+	position: relative;
+}
+
+.logo{
+	padding: 5px;
+	float: right;
+}
+.logo2{
+	padding: 5px;
+	float: left;
+}
+.menu{
+	float: right;
+	color:white;
+	height: 32px;
+}
+.menu li{
+	font-family: Bauka;
+	display: inline;
+	padding: 45.35px;
+	letter-spacing: 5px;
+
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #980f0f;
+}
